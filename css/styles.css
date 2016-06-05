@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+div.container div {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #ccc;
+    border-radius: 100%;
+    font-size: 5em;
+    color: #989898;
+    line-height: 180px;
+    margin-left: 20px;
+}
+div.container div span.timer {
+    text-shadow: -7px -6px 4px #ccc;
+}
+svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
